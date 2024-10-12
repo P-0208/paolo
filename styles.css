@@ -42,7 +42,7 @@ body {
 /* Scroll Text Sections */
 .about-section, .personal-interests {
     height: 100vh;
-    background-image: url('AndrewsProfileNew2Crop.png'); 
+    background-image: url(''); 
     background-size: cover;
     background-position: center;
     display: flex;
