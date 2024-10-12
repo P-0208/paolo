@@ -3,38 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food | Tropical Adventures</title>
+    <title>Food | Paolo's Site</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="food.html">Food</a></li>
-                <li><a href="travel.html">Travel</a></li>
-                <li><a href="itineraries.html">Itineraries</a></li>
-                <li><a href="send-me-money.html">Send Me Money</a></li>
-                <li><a href="clothes.html">Clothes</a></li>
-                <li><a href="real-estate.html">Real Estate</a></li>
-                <li><a href="made-by-me.html">Made By Me</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </nav>
+    <header class="page-header">
+        <h1>Explore Food</h1>
     </header>
 
     <main>
-        <section class="food-section">
-            <h1>Explore Tropical Foods</h1>
-            <p>Discover the best tropical dishes and recipes from around the world.</p>
-        </section>
+        <!-- Tabs for Food Categories -->
+        <div class="tabs">
+            <button class="tab-button active" onclick="openTab(event, 'appetizers')">Appetizers</button>
+            <button class="tab-button" onclick="openTab(event, 'main-dishes')">Main Dishes</button>
+            <button class="tab-button" onclick="openTab(event, 'desserts')">Desserts</button>
+        </div>
+
+        <!-- Table for Appetizers -->
+        <div id="appetizers" class="tab-content active">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dish</th>
+                        <th>Ingredients</th>
+                        <th>Calories</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Tropical Fruit Salad</td>
+                        <td>Mango, Pineapple, Coconut</td>
+                        <td>150</td>
+                    </tr>
+                    <tr>
+                        <td>Fried Plantains</td>
+                        <td>Plantains, Olive Oil</td>
+                        <td>220</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Table for Main Dishes -->
+        <div id="main-dishes" class="tab-content">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dish</th>
+                        <th>Ingredients</th>
+                        <th>Calories</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Grilled Mahi Mahi</td>
+                        <td>Mahi Mahi, Lemon, Garlic</td>
+                        <td>350</td>
+                    </tr>
+                    <tr>
+                        <td>Cuban Rice and Beans</td>
+                        <td>Rice, Black Beans, Spices</td>
+                        <td>500</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Table for Desserts -->
+        <div id="desserts" class="tab-content">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dish</th>
+                        <th>Ingredients</th>
+                        <th>Calories</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Pina Colada Cake</td>
+                        <td>Coconut, Pineapple, Rum</td>
+                        <td>420</td>
+                    </tr>
+                    <tr>
+                        <td>Key Lime Pie</td>
+                        <td>Key Lime, Condensed Milk</td>
+                        <td>340</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </main>
 
+    <!-- Navigation Buttons -->
     <footer>
-        <p>&copy; 2024 Tropical Adventures</p>
+        <div class="nav-buttons">
+            <a href="index.html" class="button">Home</a>
+            <a href="travel.html" class="button">Travel</a>
+            <a href="itineraries.html" class="button">Itineraries</a>
+        </div>
     </footer>
 
     <script src="script.js"></script>
 </body>
 </html>
-
