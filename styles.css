@@ -42,7 +42,7 @@ body {
 /* Scroll Text Sections */
 .about-section, .personal-interests {
     height: 100vh;
-    background-image: url('AndrewsProfileNew2Crop.png'); 
+    background-image: url('2023-10-07_11-38-55_260.jpg'); 
     background-size: cover;
     background-position: center;
     display: flex;
@@ -86,7 +86,7 @@ body {
 
 .buttons-section .button {
     height: 100vh;
-    background-image: url('Paolo_Image_3.jpg'); 
+    background-image: url('AndrewsProfileNew2Crop.png'); 
     background-size: cover;
     background-position: center;
     display: flex;
