@@ -67,7 +67,7 @@ body {
     z-index: 1;
 }
 
-.about-section h1 {
+.about-section h2 {
     position: relative;
     z-index: 2; /* Ensures the text appears above the overlay */
     font-size: 3rem;
@@ -89,7 +89,7 @@ body {
     font-size: 1.5rem;
     opacity: 0;
     transform: translateY(50px);
-    transition: opacity 2s ease-in, transform 2s ease-in;
+    transition: opacity 3s ease-in, transform 3s ease-in;
 }
 
 .personal-interests::before {
@@ -103,7 +103,7 @@ body {
     z-index: 1;
 }
 
-.personal-interests h1 {
+.personal-interests h2 {
     position: relative;
     z-index: 2; /* Ensures the text appears above the overlay */
     font-size: 3rem;
