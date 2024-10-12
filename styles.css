@@ -58,7 +58,7 @@ body {
 
 }
 
-.hero::before {
+.personal-interests::before {
     content: "";
     position: absolute;
     top: 0;
@@ -69,7 +69,7 @@ body {
     z-index: 1;
 }
 
-.hero h1 {
+.personal-interests h1 {
     position: relative;
     z-index: 2; /* Ensures the text appears above the overlay */
     font-size: 3rem;
@@ -86,7 +86,7 @@ body {
 
 .buttons-section .button {
     height: 100vh;
-    background-image: url(''); 
+    background-image: url('Paolo_Image_3.jpg'); 
     background-size: cover;
     background-position: center;
     display: flex;
@@ -99,6 +99,24 @@ body {
     margin: 1rem;
     font-size: 1.2rem;
     transition: background-color 0.3s ease;
+}
+
+.buttons-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    z-index: 1;
+}
+
+.buttons-section h1 {
+    position: relative;
+    z-index: 2; /* Ensures the text appears above the overlay */
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .buttons-section .button:hover {
