@@ -1,0 +1,95 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F9E9;
+    color: #333;
+}
+
+/* Page Header */
+.page-header {
+    background-color: #00A896;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.page-header h1 {
+    margin: 0;
+}
+
+/* Tabs Styling */
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.tab-button {
+    background-color: #FFD166;
+    border: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.tab-button.active {
+    background-color: #EF476F;
+    color: white;
+}
+
+.tab-button:hover {
+    background-color: #F77F00;
+}
+
+/* Tab Content (Tables) */
+.tab-content {
+    display: none;
+    padding: 1rem 2rem;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+table th, table td {
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #00A896;
+    color: white;
+}
+
+/* Navigation Buttons */
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.nav-buttons .button {
+    background-color: #EF476F;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.nav-buttons .button:hover {
+    background-color: #F77F00;
+}
