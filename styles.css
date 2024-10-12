@@ -1,1 +1,85 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F9E9;
+    color: #333;
+}
+
+/* Header Navigation */
+header {
+    background-color: #00A896;
+    padding: 1rem;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1.5rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #FFD166;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #FFD166;
+    color: #073B4C;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #00A896;
+    text-align: center;
+    color: white;
+    padding: 1rem 0;
+    margin-top: 3rem;
+}
+
+/* Layout for all pages */
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Button Styling */
+button {
+    background-color: #EF476F;
+    color: white;
+    padding: 0.7rem 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #F77F00;
+}
 
