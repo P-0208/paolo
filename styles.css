@@ -21,7 +21,20 @@ body {
     padding: 0 2rem;
 }
 
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    z-index: 1;
+}
+
 .hero h1 {
+    position: relative;
+    z-index: 2; /* Ensures the text appears above the overlay */
     font-size: 3rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
