@@ -41,8 +41,15 @@ body {
 
 /* Scroll Text Sections */
 .about-section, .personal-interests {
-    padding: 5rem 2rem;
-    text-align: center;
+    height: 100vh;
+    background-image: url('AndrewsProfileNew2Crop.png'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;padding: 5rem 2rem;
     font-size: 1.5rem;
     opacity: 0;
     transform: translateY(50px);
@@ -58,7 +65,13 @@ body {
 }
 
 .buttons-section .button {
-    background-color: #EF476F;
+    height: 100vh;
+    background-image: url(''); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     padding: 1rem 2rem;
     text-decoration: none;
