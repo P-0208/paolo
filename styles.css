@@ -42,7 +42,7 @@ body {
 /* Scroll Text Sections */
 .about-section, .personal-interests {
     height: 100vh;
-    background-image: url(''); 
+    background-image: url('AndrewsProfileNew2Crop.png'); 
     background-size: cover;
     background-position: center;
     display: flex;
@@ -54,6 +54,26 @@ body {
     opacity: 0;
     transform: translateY(50px);
     transition: opacity 1s ease-in, transform 1s ease-in;
+}
+
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    z-index: 1;
+}
+
+.hero h1 {
+    position: relative;
+    z-index: 2; /* Ensures the text appears above the overlay */
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 /* Buttons Section */
