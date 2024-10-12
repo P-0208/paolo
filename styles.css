@@ -67,9 +67,9 @@ body {
     z-index: 1;
 }
 
-.about-section h2 {
+.about-section h1 {
     position: relative;
-    z-index: 3; /* Ensures the text appears above the overlay */
+    z-index: 2; /* Ensures the text appears above the overlay */
     font-size: 3rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
@@ -89,7 +89,7 @@ body {
     font-size: 1.5rem;
     opacity: 0;
     transform: translateY(50px);
-    transition: opacity 1s ease-in, transform 1s ease-in;
+    transition: opacity 2s ease-in, transform 2s ease-in;
 }
 
 .personal-interests::before {
@@ -103,9 +103,9 @@ body {
     z-index: 1;
 }
 
-.personal-interests h2 {
+.personal-interests h1 {
     position: relative;
-    z-index: 3; /* Ensures the text appears above the overlay */
+    z-index: 2; /* Ensures the text appears above the overlay */
     font-size: 3rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
